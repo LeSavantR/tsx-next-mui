@@ -4,6 +4,11 @@ import { CssBaseline } from '@nextui-org/react';
 
 class MyDocument extends Document {
 
+  static async getInitialProps(context: any) {
+    const initialProps = await Document.getInitialProps(context);
+    return { ...initialProps, styles: <>{initialProps.styles}</> };
+  };
+
   render() {
     return (
       <Html lang="en">
