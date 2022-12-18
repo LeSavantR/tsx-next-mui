@@ -5,7 +5,7 @@ export interface MainInterface {}
 const Main: React.FC<MainInterface> = () => {
 	return (
 		<>
-
+			Main Function Component
 		</>
 	);
 };

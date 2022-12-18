@@ -8,7 +8,7 @@ const Home: NextPage = () => {
       <Headers />
       <Main />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

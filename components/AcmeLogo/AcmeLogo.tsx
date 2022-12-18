@@ -4,7 +4,7 @@ import React from 'react';
 export interface AcmeLogoInterface {}
 
 const AcmeLogo: React.FC<AcmeLogoInterface> = () => {
-  return (
+	return (
 		<svg
 			className=""
 			fill="none"

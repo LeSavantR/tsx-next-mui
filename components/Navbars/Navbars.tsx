@@ -16,6 +16,7 @@ const Navbars: React.FC<NavbarsInterface> = (props) => {
 
 	return (
 		<>
+			Navbar Function Component
 		</>
 	);
 };
